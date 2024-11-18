@@ -1,0 +1,14 @@
+{
+    "detailActionList": [
+        "__APPEND__",
+        {
+            "label": "Najít kontakty",
+            "name": "findContacts",
+            "acl": "edit",
+            "handler": "custom:find-contacts-handler",
+            "initFunction": "initFindContacts",
+            "checkVisibilityFunction": "isFindContactsVisible",
+            "actionFunction": "findContacts"
+        }
+    ]
+}
